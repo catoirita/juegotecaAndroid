@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ReCreo</string>
+    <string name="api_key">AIzaSyDC0_K9oR_qaaHWbo8oakGRdYRCJuuvWt4</string>
+    <string name="programa_recreo">
+        <![CDATA[
+        <h2>Programa Re-Creo</h2>
+        <p>
+            Programa Re-Creo es un espacio diseñado para que los niños aprendan de manera placentera, aprovechando su curiosidad natural y su capacidad de juego como herramientas de aprendizaje.
+            A través de actividades que incluyen la observación, la experimentación y el juego, los niños desarrollan habilidades esenciales para su crecimiento personal y académico.
+        </p>
+        <p>
+            Este aprendizaje no solo es agradable y duradero, sino que también fomenta la confianza en sí mismos, el entendimiento de los límites y la capacidad de esperar, seguir reglas y controlar sus impulsos.
+            Todo esto contribuye al desarrollo de su inteligencia, conocimiento y felicidad.
+        </p>
+        <p>
+            En el programa, los niños realizan actividades académicas como <b>matemáticas, lectura y ciencias</b>, integradas en dinámicas lúdicas y creativas.
+            Estas les permiten aprender mientras juegan, asegurando que su interés y motivación permanezcan altos.
+        </p>
+        <h3>Actividades:</h3>
+        <ul>
+            <li>Psicomotricidad fina y gruesa</li>
+            <li>Desarrollo de la creatividad</li>
+            <li>Ubicación espacial</li>
+            <li>Desarrollo del lenguaje</li>
+            <li>Narración de cuentos y cuentería escénica</li>
+            <li>Improvisación de danza</li>
+            <li>Apreciación musical</li>
+        </ul>
+        ]]>
+    </string>
+</resources>

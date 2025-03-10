@@ -1,0 +1,244 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondopastel"
+    tools:context=".ActividadesActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/britannicbold"
+        android:text="ACTIVIDADES"
+        android:textColor="@color/rojo"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Taller Danza Urbana -->
+            <LinearLayout
+                android:id="@+id/layoutDiadeladanza"
+                android:layout_width="wrap_content"
+                android:layout_height="196dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/danzasegunda" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="DIA INTERNACIONAL DE LA DANZA"
+                        android:textColor="@color/rojo"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="168dp"
+                        android:layout_height="103dp"
+                        android:layout_marginTop="4dp"
+                        android:padding="4dp"
+                        android:text="Celebramos el Día Internacional de la Danza con presentaciones y talleres interactivos. ¡Ven y disfruta del arte en movimiento!"
+                        android:textSize="13sp" />
+
+                    <Button
+                        android:id="@+id/ButtonDanzaUrbana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:backgroundTint="@color/verde"
+                        android:text="+ info"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Taller Lectura-->
+            <LinearLayout
+                android:id="@+id/layoutLectura"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lectura"
+                    android:layout_marginEnd="8dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="LECTURA BAJO EL ARBOL"
+                        android:textColor="@color/rojo"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="174dp"
+                        android:layout_height="102dp"
+                        android:layout_marginTop="4dp"
+                        android:padding="4dp"
+                        android:text="Esta actividad se realiza para fomentar la lectura, escritura y el hábito de leer. Invitamos a escritores bolivianos para que compartan cuentos bajo la sombra de los árboles frutales en Re-Creo. Es una actividad familiar, ¡pueden venir todos!"
+                        android:textSize="12sp" />
+                    <Button
+                        android:id="@+id/ButtonClubCiencias"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:backgroundTint="@color/verde"
+                        android:text="+ info"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Taller Semana de la mujer -->
+            <LinearLayout
+                android:id="@+id/layoutSemanamujer"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mujer" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="SEMANA DE LA MUJER"
+                        android:textColor="@color/rojo"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="87dp"
+                        android:layout_marginTop="4dp"
+                        android:padding="4dp"
+                        android:text="Durante la Semana de la Mujer, realizamos charlas y actividades para fomentar la igualdad de género. Inspiramos a las niñas de Re-Creo a soñar en grande y perseguir profesiones como futbolistas, ingenieras y científicas."
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/buttonApoyoEscolar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:backgroundTint="@color/verde"
+                        android:text="+ info"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Taller Dia internacional del juego -->
+            <LinearLayout
+                android:id="@+id/layoutDiadeljuego"
+                android:layout_width="wrap_content"
+                android:layout_height="193dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/juego" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="DIA INTERNACIONAL DEL JUEGO"
+                        android:textColor="@color/rojo"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="93dp"
+                        android:layout_marginTop="4dp"
+                        android:padding="4dp"
+                        android:text="En el Día Internacional del Juego, invitamos a toda la familia a disfrutar jugando,¡de 0 a 99 años! En Re-Creo, celebramos este día rescatando la magia de nuestra infancia"
+                        android:textSize="12sp" />
+                    <Button
+                        android:id="@+id/ButtonPreBallet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:backgroundTint="@color/verde"
+                        android:text="+ info"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

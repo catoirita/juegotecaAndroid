@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ReCreo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Hacer la barra de estado y navegación transparentes -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <!-- Habilitar íconos oscuros en la barra de estado y navegación si el fondo es claro -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Permitir contenido debajo de la barra de estado y navegación -->
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+    <style name="Theme.ReCreo" parent="Base.Theme.ReCreo" />
+</resources>
