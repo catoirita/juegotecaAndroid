@@ -183,7 +183,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="REGISTRARSE"
-            android:backgroundTint="@color/verde"
+            android:background="@drawable/botonverde"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:layout_marginTop="20dp"/>
